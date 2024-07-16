@@ -8,12 +8,19 @@ Ideal for showcasing on the Pump.fun main page.
 
 [![Demo](https://img.youtube.com/vi/X5rz-T2F4qw/0.jpg)](https://www.youtube.com/watch?v=X5rz-T2F4qw)
 
-# Download the bot
+# Download via git clone
+
 If you have git installed on your computer you can fetch the content of this repository with the command
 
 ``` 
 git clone https://github.com/EVMBotDev/pump.fun-bump_bot.git
 ```
+
+# Download via ZIP
+
+https://github.com/EVMBotDev/pump.fun-bump_bot/archive/refs/heads/main.zip
+
+Download and extract then continue to the follow steps
 
 # Setting up the bot
 
