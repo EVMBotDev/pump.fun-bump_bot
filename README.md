@@ -12,9 +12,8 @@ Ideal for showcasing on the Pump.fun main page.
 If you have git installed on your computer you can fetch the content of this repository with the command
 
 ``` 
-git clone https://github.com/PasusS0ldev/Micro-Buy-Bot-for-Pump.Fun.git
+git clone https://github.com/EVMBotDev/pump.fun-bump_bot.git
 ```
-Else, you can download the repository in a zip here : https://github.com/PasusS0ldev/Micro-Buy-Bot-for-Pump.Fun/archive/refs/heads/main.zip
 
 # Setting up the bot
 
