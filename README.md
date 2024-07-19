@@ -7,7 +7,10 @@ If you have git installed on your computer you can fetch the content of this rep
 ``` 
 git clone https://github.com/PasusS0ldev/Micro-Buy-Bot-for-Pump.Fun.git
 ```
-Else, you can download the repository in a zip here : https://github.com/EVMBotDev/pump.fun-bump_bot/archive/refs/heads/main.zip
+Else, you can download the repository in a zip here : 
+```
+https://github.com/EVMBotDev/pump.fun-bump_bot/archive/refs/heads/main.zip
+```
 
 # Setting up the bot
 
