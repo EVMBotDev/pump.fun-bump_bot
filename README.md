@@ -1,27 +1,13 @@
-# Pump.fun Bump-Bot
-A micro buy, bump bot for pumping your pump.fun tokens, the bot is free to use, however I would really appreciate if you could donate to my wallet at the bottom of the page, thank you! By using this bot your tokens will always be on the front page.
+# Bump-Bot for Pump.fun and Raydium
+This bot will buy and sell tokens automatically keeping you at the top of Pump.fun's main page OR inflate Volumes on Raydium.
 
-# Description
-This bot automatically buys and sells on Pump.fun and Raydium.
-Ideal for showcasing on the Pump.fun main page.
-
-# Demo
-
-[![Demo](https://img.youtube.com/vi/X5rz-T2F4qw/0.jpg)](https://www.youtube.com/watch?v=X5rz-T2F4qw)
-
-# Download via git clone
-
+# Download the bot
 If you have git installed on your computer you can fetch the content of this repository with the command
 
 ``` 
-git clone https://github.com/EVMBotDev/pump.fun-bump_bot.git
+git clone https://github.com/PasusS0ldev/Micro-Buy-Bot-for-Pump.Fun.git
 ```
-
-# Download via ZIP
-
-https://github.com/EVMBotDev/pump.fun-bump_bot/archive/refs/heads/main.zip
-
-Download and extract then continue to the follow steps
+Else, you can download the repository in a zip here : https://github.com/EVMBotDev/pump.fun-bump_bot/archive/refs/heads/main.zip
 
 # Setting up the bot
 
@@ -63,7 +49,7 @@ It should install all the dependencies in a new folder named "node_modules".
 # Setting up the bot
 
 You have three things to setup within the index.js file:
-1. RPC endpoint to connect to the Solana blockchain (Quicknode or Helius provide good free RPC endpoints).
+1. RPC endpoint to connect to the Solana blockchain (Chainstack, Quicknode or Helius provide reliable free RPC endpoints).
 
 2. Private key of the wallet that will execute buy and sell operations.
 
@@ -103,10 +89,14 @@ If you want to buy only 2 times, for example, you just need to remove 2 lines, l
 promises.push(swap(SOL_ADDR, TOKEN_ADDR, solanaTracker, keypair, connexion, SOL_BUY_AMOUNT));
 promises.push(swap(SOL_ADDR, TOKEN_ADDR, solanaTracker, keypair, connexion, SOL_BUY_AMOUNT));
 ```
-If you want to adjust the buy amount in SOL, you can set it the value at the top of the script:
+# Adjusting the buy amount, slippage and fees
+
+
+EVMBotDev has implemented a buy range, so you can set the minimum and maximum amount to buy where the bot will randomly choose an amount between the two values:
 
 ```
-const SOL_BUY_AMOUNT =
+const MIN_SOL_BUY_AMOUNT = ""; //
+const MAX_SOL_BUY_AMOUNT = ""; //
 
 ```
 Same goes for the slippage, it can be setup at the top of the script:
@@ -119,6 +109,7 @@ And the same applies for the fees (higher fees = faster speed):
 ```
 const FEES =
 ```
+Happy bumping!
 
 # If you are feeling generous buy me a coffee!
 
